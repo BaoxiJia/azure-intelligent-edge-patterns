@@ -10,7 +10,7 @@ spec:
   releaseName: voe
   chart:
     spec:
-      chart: "./factory-ai-vision/EdgeSolution/Helm Chart/VisionOnEdge"
+      chart: ./factory-ai-vision/EdgeSolution/charts/VisionOnEdge
   values:
     azureIoT:
       hubConnectionString: HostName=bx-hub-2.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=W+6h6pZeUVd5DgeLsGtQl7z5IYxxZMcH4MzZtAe2ASM=
